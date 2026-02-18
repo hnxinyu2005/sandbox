@@ -39,11 +39,13 @@ $$
 - $k$：单次抽取中命中的中奖号码数（$0 \leq k \leq 7$）
 
 命中 $k$ 个号码的概率计算公式：
+
 $$
 P(X=k) = \frac{\binom{K}{k} \times \binom{N-K}{n-k}}{\binom{N}{n}}
 $$
 
 代入参数（$N=36, K=7, n=7$）后：
+
 $$
 P(X=k) = \frac{\binom{7}{k} \times \binom{29}{7-k}}{\binom{36}{7}}
 $$
